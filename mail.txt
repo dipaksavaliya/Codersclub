@@ -1,0 +1,20 @@
+ SmtpClient smtpServer = new SmtpClient();
+                MailMessage mail = new MailMessage();
+                smtpServer.Credentials = new System.Net.NetworkCredential( "cncroadways@gmail.com","password");
+                smtpServer.Port = 587;
+                smtpServer.Host = "smtp.gmail.com";
+                smtpServer.EnableSsl = true;
+                mail.From = new MailAddress("cncroadways@gmail.com");
+                mail.To.Add(email);
+                mail.Subject ="..:CnC Roadways:..-Registration";
+                mail.Body = "Warm,Welcome To CnC Roadways \n\n\n \t Now You Can Book Your Bus Onnline With Your Username And PassWord Which Is \n\n\t\t Username:"+ uname +" \n\t\t Password:"+ pass +". \n\n\n\t\t\t\t\t Thankyou \n\t\t\t\t\t\t\t\t\t\t\tCnC Roadways Administrative Department.";
+                try
+                {
+                    smtpServer.Send(mail);
+                    del_usr_Request(strCmdArg);
+                   
+                }
+                catch (Exception ex)
+                {
+                    
+                }
