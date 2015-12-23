@@ -1,4 +1,4 @@
 # Codersclub
-Project made to represent into my college event named 'ABHISHAR'.
-Codersclub is a mini website like freelancing work.
-Codersclub has used php, html and Css
+Codersclub was made to represent my college event named 'ABHISHAR 2k13'.<br/>
+Codersclub is a mini website like freelancing work where one can upload their projects and appropriate.<br/>
+Codersclub has used PHP, HTML and CSS.<br/>
