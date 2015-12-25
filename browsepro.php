@@ -30,7 +30,8 @@
        }
        else
        {
-?></font> &nbsp;|&nbsp; &nbsp; &nbsp; 
+        ?>
+        </font> &nbsp;|&nbsp; &nbsp; &nbsp; 
 <a href="logout.php">Logout</a></p>
        <ul><li><a href="welcome3.php"><span><span>Home</span></span></a></li>
              <li><a href="contact3.php"><span><span>Contacts</span></span></a></li></ul>
